@@ -24,9 +24,9 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 
 
-global.devs = "254710772666" // Developer Contact
+global.devs = "26312125221" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254716490732";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "26312125221";
 
 
 
@@ -62,7 +62,7 @@ global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://a-af3e38f6851a.herokuapp.com/";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  "" ;
+global.SESSION_ID = process.env.SESSION_ID ||  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNkZ6aGpzRlFKcWpZMTNmanZPa3NLOTVlc3FidUVEMVJzK09BUmVOS1dYOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQVFnaDFyZ3lJOXFjSVBsSEFQK29CeFgzWVFkL1RJOGJ6SXpWRTVucEQwOD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJNSERDQ0lyMXE4QWE2U3RjU1VsZStETktqNW03WDFLeTMvTThDQW1qWWxRPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJHSmVsZ1RqVnB0S3Y2WXBUUUp1YzA3SmxEdUZqM2xjNVk0S3BlRmRtdVY0PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IndOTzdFZk1zTldIU2lXMzc4NGMxTU9BZ2xlNGtqZGZrUWV6VmcxWkIzRlk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ii9ja0ZKeTlwRU12VW5DWlZQNEplRUxObkxzK2hZeW9vNjRKYlFJQzMwV0U9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTVBaYzl6Zkp4NnBRcFhrbXFpY2NvQ2NRT1MyUlFsVUZWMCt4UUFyNE5Gaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZzRuaWdCZFMrUDhhZVhzLzZKaTRVQ2gzUUQ5SGRGUGtWbGxyZ20zVWh5dz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im9kK3d1L2VaQ1U2SHppcjhUNmtmbU8vZnBaZUNCdkE3VSszNlBvN0ZqcUpNdEg1b1hYRXJlaVVvdy9uTlU4TmpqaW5HaldNeEtXdTB1YmZ4U250SmlRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTk3LCJhZHZTZWNyZXRLZXkiOiIwYmx4bHFGUGpFdG13VFRsRlhvNDI5SDl0NktIa0FBSTBPb2VQcmFlYVZRPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjI2MzcxMjEyNTIyMUBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiJFQzFCQUVDNzExNzVBNzY1QURERjU5NkFGNDJEQjc4OSJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzE5NTM4NDE2fV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJyR0tJZkVLa1Q2T0prSFFNOWl2S3pRIiwicGhvbmVJZCI6IjU5NWEzMDJjLWMzYTUtNDRiOC04NWExLTNjMDljMTM0ZDA5NCIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJyL3QxWTEwMTA0a3Q3LzRyYzcvV00xdzJadTg9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNmFBOWVHdVBxdVl5b1ZnL1Vtc05oYjhVQ3RvPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IkpGTkpQUE1aIiwibWUiOnsiaWQiOiIyNjM3MTIxMjUyMjE6MTBAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0tPRjM4MEdFT0tsK0xNR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IkZSYnZad0Nkc3pKTmcvVHAyRUZBL1dTdkRRWXhwUU5Pb2t2bTllNnhKa3c9IiwiYWNjb3VudFNpZ25hdHVyZSI6IlRVTTVFSHc1UEpYdmIvTks3RnpLWlNXdklteEs2emY2TkJhYTNXc0lSeFVxa1dDMDJucGVLL3FheS9aZzYwL0dWUHppNHRZb1F4N003dHZLU3hLbEJnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiI5ci9HSDZFbkMzMkJTckp6SHBxWnVGL1pLc1Y4OW93YUVyejBRVldYY2xCRERBWkFrc2QzanRuK2dMZ0s2ZDQvaXVMa255c3lrTFNGUlA0K3N1dUFqUT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI2MzcxMjEyNTIyMToxMEBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJSVVc3MmNBbmJNeVRZUDA2ZGhCUVAxa3J3MEdNYVVEVHFKTDV2WHVzU1pNIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzE5NTM4NDEzLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUVGZiJ9" ;
 
 
 module.exports = {
@@ -76,8 +76,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "Mr MWTU",
   packname: process.env.PACK_NAME || "🐯",
-  botname : process.env.BOT_NAME  || "MWTU-MD",
-  ownername:process.env.OWNER_NAME|| "Mr MWTU",
+  botname : process.env.BOT_NAME  || "〽️🅰️N T🅰️KU-MD",
+  ownername:process.env.OWNER_NAME|| "〽️🅰️N T🅰️KU",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -86,7 +86,7 @@ module.exports = {
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
-  HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
+  HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "hunger",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
